@@ -1,5 +1,4 @@
-import java.util.Scanner
-import kotlin.math.sqrt
+package intro
 
 /**
  * Functions
@@ -34,13 +33,13 @@ fun log(vararg entries: String) {
     printAllWithPrefix(*entries)
 }
 
-/*fun main(args: Array<String>) {
-//    printMessage("Hello, World!")
-//    printMessageWithPrefix("Hello", "Log")
-//    printMessageWithPrefix("Hello")
-//    printMessageWithPrefix(prefix = "DEBUG", message = "Hello, world!")
-//    println(sum(1, 2))
-//    println(multiply(2, 4))
+/*fun controlflow.main(args: Array<String>) {
+//    intro.printMessage("Hello, World!")
+//    intro.printMessageWithPrefix("Hello", "Log")
+//    intro.printMessageWithPrefix("Hello")
+//    intro.printMessageWithPrefix(prefix = "DEBUG", message = "Hello, world!")
+//    println(intro.sum(1, 2))
+//    println(intro.multiply(2, 4))
 
     infix fun Int.times(str: String) = str.repeat(this)
     println(2 times "Bye")
@@ -58,10 +57,10 @@ fun log(vararg entries: String) {
     val v3 = "Everyone!"
     println(v1 plus v2 plus v3)
 
-    printAll("A", "B", "C", "D", "E", "F")
-    log("a", "b", "c", "d", "e", "f", "g", "h")
-    val sophia = Person("Sophia")
-    val claudia = Person("Cloudia")
+    intro.printAll("A", "B", "C", "D", "E", "F")
+    intro.log("a", "b", "c", "d", "e", "f", "g", "h")
+    val sophia = intro.Person("Sophia")
+    val claudia = intro.Person("Cloudia")
     sophia likes claudia
 
 }*/

@@ -1,3 +1,5 @@
+package controlflow
+
 class TestModel(private var attrbt1: String) {
 
     private var attrbt2: String = ""

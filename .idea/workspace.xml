@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="105faaa0-120d-4d91-9de2-b6dc05155389" name="Default Changelist" comment="" />
+    <list default="true" id="105faaa0-120d-4d91-9de2-b6dc05155389" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/EqualityChecks.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Loops.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ranges.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/When.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/AppKt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/AppKt$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/AppKt$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/AppKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/META-INF/KotlinStudy.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinStudy/META-INF/KotlinStudy.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinStudy/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/TestModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinStudy/TestModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nullable.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,15 +27,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1fRG5sXLt14lt1ThMeqjZylis6T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -34,30 +53,29 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="AppKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="EqualityChecksKt" type="JetRunConfigurationType" nameIsGenerated="true">
       <module name="KotlinStudy" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="AppKt" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="MAIN_CLASS_NAME" value="controlflow.EqualityChecksKt" />
+      <option name="WORKING_DIRECTORY" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Kotlin.AppKt" />
-      </list>
-    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -70,45 +88,68 @@
       <updated>1596173311344</updated>
       <workItem from="1596173313277" duration="5714000" />
       <workItem from="1598192026388" duration="6308000" />
+      <workItem from="1598628670563" duration="622000" />
+      <workItem from="1598629334514" duration="49000" />
+      <workItem from="1598629395945" duration="1304000" />
+      <workItem from="1598686492200" duration="2626000" />
+      <workItem from="1598793680824" duration="4258000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="127" key="#Kotlin" timestamp="1596464002363">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="320" y="127" key="#Kotlin/0.23.1440.877@0.23.1440.877" timestamp="1596464002363" />
-    <state x="320" y="127" width="805" height="669" key="#Project_Structure" timestamp="1596173322285">
+    <state x="320" y="109" key="#Plugins" timestamp="1598686517276">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="127" width="805" height="669" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1596173322285" />
+    <state x="320" y="109" key="#Plugins/0.23.1440.877@0.23.1440.877" timestamp="1598686517276" />
+    <state x="320" y="127" width="858" height="669" key="#Project_Structure" timestamp="1598686431910">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="127" width="858" height="669" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1598686431910" />
+    <state x="-1675" y="7" width="1428" height="868" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598799389707">
+      <screen x="-1920" y="-114" width="1920" height="1057" />
+    </state>
+    <state x="-1675" y="7" width="1428" height="868" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/-1920.-114.1920.1057@-1920.-114.1920.1057" timestamp="1598799389707" />
+    <state x="184" y="123" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1598687296966" />
+    <state x="-1311" y="184" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1598799388598">
+      <screen x="-1920" y="-114" width="1920" height="1057" />
+    </state>
+    <state x="-1311" y="184" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.877/-1920.-114.1920.1057@-1920.-114.1920.1057" timestamp="1598799388598" />
+    <state x="457" y="270" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.877@0.23.1440.877" timestamp="1598687295591" />
     <state x="438" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1596173615488">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="438" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1440.877@0.23.1440.877" timestamp="1596173615488" />
-    <state width="1878" height="289" key="GridCell.Tab.0.bottom" timestamp="1598284406887">
+    <state width="1878" height="361" key="GridCell.Tab.0.bottom" timestamp="1598799395358">
       <screen x="-1920" y="-114" width="1920" height="1057" />
     </state>
-    <state width="1878" height="289" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-114.1920.1057@-1920.-114.1920.1057" timestamp="1598284406887" />
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1596960160364" />
-    <state width="1878" height="289" key="GridCell.Tab.0.center" timestamp="1598284406886">
+    <state width="1878" height="361" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-114.1920.1057@-1920.-114.1920.1057" timestamp="1598799395358" />
+    <state width="1398" height="289" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1598767376513" />
+    <state width="1878" height="361" key="GridCell.Tab.0.center" timestamp="1598799395356">
       <screen x="-1920" y="-114" width="1920" height="1057" />
     </state>
-    <state width="1878" height="289" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-114.1920.1057@-1920.-114.1920.1057" timestamp="1598284406886" />
-    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1596960160364" />
-    <state width="1878" height="289" key="GridCell.Tab.0.left" timestamp="1598284406886">
+    <state width="1878" height="361" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-114.1920.1057@-1920.-114.1920.1057" timestamp="1598799395356" />
+    <state width="1398" height="289" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1598767376511" />
+    <state width="1878" height="361" key="GridCell.Tab.0.left" timestamp="1598799395356">
       <screen x="-1920" y="-114" width="1920" height="1057" />
     </state>
-    <state width="1878" height="289" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-114.1920.1057@-1920.-114.1920.1057" timestamp="1598284406886" />
-    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1596960160363" />
-    <state width="1878" height="289" key="GridCell.Tab.0.right" timestamp="1598284406886">
+    <state width="1878" height="361" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-114.1920.1057@-1920.-114.1920.1057" timestamp="1598799395356" />
+    <state width="1398" height="289" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1598767376511" />
+    <state width="1878" height="361" key="GridCell.Tab.0.right" timestamp="1598799395357">
       <screen x="-1920" y="-114" width="1920" height="1057" />
     </state>
-    <state width="1878" height="289" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-114.1920.1057@-1920.-114.1920.1057" timestamp="1598284406886" />
-    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1596960160364" />
+    <state width="1878" height="361" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-114.1920.1057@-1920.-114.1920.1057" timestamp="1598799395357" />
+    <state width="1398" height="289" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1598767376511" />
+    <state x="-1372" y="156" key="IDE.errors.dialog" timestamp="1598794960951">
+      <screen x="-1920" y="-114" width="1920" height="1057" />
+    </state>
+    <state x="-1372" y="156" key="IDE.errors.dialog/0.23.1440.877/-1920.-114.1920.1057@-1920.-114.1920.1057" timestamp="1598794960951" />
     <state x="-1625" y="-21" key="SettingsEditor" timestamp="1598192574896">
       <screen x="-1920" y="-114" width="1920" height="1057" />
     </state>
@@ -118,10 +159,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="94" y="84" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1596264336388" />
-    <state x="-1407" y="115" width="894" height="815" key="search.everywhere.popup" timestamp="1598192551208">
+    <state x="-1407" y="115" width="894" height="815" key="search.everywhere.popup" timestamp="1598799124403">
       <screen x="-1920" y="-114" width="1920" height="1057" />
     </state>
-    <state x="-1407" y="115" width="894" height="815" key="search.everywhere.popup/0.23.1440.877/-1920.-114.1920.1057@-1920.-114.1920.1057" timestamp="1598192551208" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1596464016300" />
+    <state x="-1407" y="115" width="894" height="815" key="search.everywhere.popup/0.23.1440.877/-1920.-114.1920.1057@-1920.-114.1920.1057" timestamp="1598799124403" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1598630538606" />
   </component>
 </project>
